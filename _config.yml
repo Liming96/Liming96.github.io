@@ -22,6 +22,7 @@ social:
     # twitter: 
     mail: liming96@126.com
 
+markdown: kramdown
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
