@@ -26,6 +26,56 @@
   
   <meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />
 
+<!-- new -->
+  {% for link in site.links1 %}
+      {% assign count = 0 %}
+      {% if link.type == site.blog_1 %}
+          {% for post in site.posts %}
+            {% assign count = count | plus: 1 %}
+          {% endfor %}
+      {% endif %}
+
+      {% if link.type == site.blog_2 %}
+          {% for post in site.posts %}
+            {% if post.mlelement %}
+              {% assign count = count | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+      {% endif %}
+
+      {% if link.type == site.blog_3 %}
+          {% for post in site.posts %}
+            {% if post.mlaction %}
+              {% assign count = count | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+      {% endif %}
+
+      {% if link.type == site.blog_4 %}
+          {% for post in site.posts %}
+            {% if post.bdelement %}
+              {% assign count = count | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+      {% endif %}
+
+      {% if link.type == site.blog_5 %}
+          {% for post in site.posts %}
+            {% if post.bdaction %}
+              {% assign count = count | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+      {% endif %}
+
+      {% if link.type == site.blog_6 %}
+          {% for post in site.posts %}
+            {% if post.statistics %}
+              {% assign count = count | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+      {% endif %}
+  {% endfor %}
+
 <!-- 站点统计 -->
   <script 
   async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
