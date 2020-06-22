@@ -20,7 +20,7 @@
 
 ### 2、MapReduce流程
 
-最简单的MapReduce应用程序至少包含 3 个部分：一个 Map 函数、一个 Reduce 函数和一个 main 函数。在运行一个mapreduce计算任务时候，任务过程被分为两个阶段：map阶段和reduce阶段，每个阶段都是用键值对（key/value）作为输入（input）和输出（output）。main 函数将作业控制和文件输入/输出结合起来。![WordCount MapReduce Paradigm](/Users/liming/Liming96.github.io/images/WordCount MapReduce Paradigm.png)
+最简单的MapReduce应用程序至少包含 3 个部分：一个 Map 函数、一个 Reduce 函数和一个 main 函数。在运行一个mapreduce计算任务时候，任务过程被分为两个阶段：map阶段和reduce阶段，每个阶段都是用键值对（key/value）作为输入（input）和输出（output）。main 函数将作业控制和文件输入/输出结合起来。![WordCount MapReduce Paradigm](/images/WordCount MapReduce Paradigm.png)
 
 
 
