@@ -1,3 +1,11 @@
+---
+layout: post
+title: MapReduce 原理
+tags: [大数据理论]
+categories: 大数据理论
+---
+
+
 ## 一、MapReduce 原理
 
 ##### 场景：150人的班级举行一次期末考试，老师想要统计每个分数有多少人，如何统计最高效？（PS：这门课有三个助教）
