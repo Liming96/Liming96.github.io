@@ -35,6 +35,19 @@ ga:
     id: xxxx  
     host: auto  
 
+# 添加category内容
+permalink: /:categories/:title/
+
+# List of links in the navigation bar
+navbar-links:
+  主页: "https://Liming96.github.io"
+  分类: "https://Liming96.github.io/categories/"
+  标签: "https://Liming96.github.io/tags/"
+  项目:
+    - Learn markdown: "http://www.markdowntutorial.com/"
+  关于我: "aboutme"
+  搜索: "search"
+
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
 #
@@ -70,43 +83,3 @@ nav:
 gems: [jekyll-paginate,jekyll-sitemap]
 paginate: 20
 paginate_path: "page/:num/"
-
-# 《----------------- 添加文章分类功能 ---------------------------》
-
-links1:
-    - name:         所有
-      url:          /
-      type:         recent
-      external:     false
-    - name:         机器学习理论
-      url:          /blog/mlelement
-      type:         mlelement
-      external:     false
-    - name:         机器学习实战
-      url:          /blog/mlaction
-      type:         mlaction
-      external:     /false
-    - name:         大数据理论
-      url:          /blog/bdelement
-      type:         bdelement
-      external:     false
-    - name:         大数据实战
-      url:          /blog/bdaction
-      type:         bdaction
-      external:     false
-    - name:         统计学
-      url:          /blog/statistics
-      type:         statistics
-      external:     false
-blog_1:     recent
-blog_2:     mlelement
-blog_3:     mlaction
-blog_4:     bdelement
-blog_5:     bdaction
-blog_6:     statistics
-
-
-
-
-
-
