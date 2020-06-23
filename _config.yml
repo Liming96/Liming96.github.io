@@ -35,18 +35,6 @@ ga:
     id: xxxx  
     host: auto  
 
-# 添加category内容
-permalink: /:categories/:title/
-
-# List of links in the navigation bar
-navbar-links:
-  主页: "https://Liming96.github.io"
-  分类: "https://Liming96.github.io/categories/"
-  标签: "https://Liming96.github.io/tags/"
-  项目:
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  关于我: "aboutme"
-  搜索: "search"
 
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
